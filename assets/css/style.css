@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap");
+
+body {
+  background-color: #2aa0d6;
+  color: #ffc107;
+  font-family: Bai Jamjuree, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #8b400b;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #2aa0d6;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #455504;
+}
+
+img {
+  width: 70%;
+  align-items: center;
+  border-radius: 50%;
+}
+.text-brand {
+  color: #455504;
+}
+
+.bg-base {
+  background-color: #0c9ab0;
+}
+.navbar {
+  background-color: #0c9ab0;
+}
+href {
+  margin: 40px;
+}
+
+.navbar .nav-link {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: hsl(243, 84%, 47%);
+}
+
+.navbar .nav-link:hover {
+  color: #c1370d;
+}
+
+.navbar .nav-link.active {
+  color: #fff;
+}
+
+.navbar {
+  min-height: 100vh;
+  width: 260px;
+  background: linear-gradient(#66c1cdcc, rgba(42, 185, 204, 0.6)),
+    url(../images/sidebar.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar-brand img {
+  border: 8px solid #455504;
+}
+/* //} */
+.full-page {
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  outline: 5px solid white;
+  margin: 5px;
+
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+#content {
+  padding-left: 260px;
+  outline: 5px solid white;
+}
+.tools {
+  width: 10%;
+  margin: 40px;
+}
+
+.resume {
+  width: 50%;
+}
+.communication {
+  width: 5%;
+  margin: 40px;
+}
